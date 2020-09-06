@@ -24,6 +24,7 @@ myreverse []       = []
 myreverse (x : []) = [x]
 myreverse (x : xs) = (myreverse xs) ++ [x]
 
+--
 fib _ _ 0 = 0
 fib _ _ 1 = 1
 fib _ _ 2 = 1
